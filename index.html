@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CFO Store</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0B0B0B;
+  color: white;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: #111;
+}
+header h1 { color: #C8A96A; }
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url('https://images.unsplash.com/photo-1521334884684-d80222895322') no-repeat center/cover;
+}
+.hero h2 { font-size: 50px; }
+.btn {
+  background: #C8A96A;
+  color: black;
+  padding: 12px 25px;
+  text-decoration: none;
+}
+
+/* Sections */
+.section {
+  padding: 50px;
+  text-align: center;
+}
+
+/* Products */
+.products {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  background: #1c1c1c;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.price { color: #C8A96A; }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>CFO Store</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Clothing</a>
+    <a href="#">Jewellery</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Luxury Clothing & Jewellery</h2>
+  <p>Minimal. Elegant. Powerful.</p>
+  <a href="#" class="btn">Shop Now</a>
+</section>
+
+<section class="section">
+  <h2>Clothing Collection</h2>
+  <div class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
+      <h3>Premium Shirt</h3>
+      <p class="price">$40</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1593032465171-8c1b9c9a6b8f">
+      <h3>Modern Hoodie</h3>
+      <p class="price">$60</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Jewellery Collection</h2>
+  <div class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a">
+      <h3>Gold Chain</h3>
+      <p class="price">$120</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1605106702734-205df224ecce">
+      <h3>Luxury Watch</h3>
+      <p class="price">$250</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 CFO Store | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
